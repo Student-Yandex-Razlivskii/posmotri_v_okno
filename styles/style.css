@@ -54,9 +54,10 @@ ol {
 
 .content {
   display: flex;
-  margin: auto;
   align-items: end;
-  gap: 30px;
+  column-gap: 30px;
+  width: 1140px;
+  margin: auto;
 }
 
 /* Стилизация видео */
@@ -216,14 +217,6 @@ ol {
 }
 
 /* Стилизация секции с карточками */
-
-.content {
-  display: flex;
-  align-items: end;
-  column-gap: 30px;
-  width: 1140px;
-  margin: auto;
-}
 
 .content__details {
   inline-size: 100%;
